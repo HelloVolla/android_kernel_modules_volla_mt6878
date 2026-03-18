@@ -26,7 +26,7 @@
 #include "virt-sensor/virt-sensor-entry.h"
 /* pri by zhuzhengjiang start*/
 #if IS_ENABLED(CONFIG_PRIZE_HARDWARE_INFO)
-#include "../../../../../../kernel/kernel_device_modules-6.1/drivers/misc/mediatek/hardware_info/hardware_info.h"
+#include "../../../../../../kernel_device_modules-6.1/drivers/misc/mediatek/hardware_info/hardware_info.h"
 extern struct hardware_info current_camera_info[5];
 #endif
 /* pri by zhuzhengjiang end*/
